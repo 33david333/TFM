@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos de datos pesados generados por el código (no versionar)
+*.npz
+*.pt
+U.npy
+x.npy
+
+# Notebooks: checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Si usas un entorno virtual local
+venv/
+.venv/
